@@ -1,6 +1,7 @@
-﻿var a: array [1..100] of integer;
+﻿var a: array [0..100] of integer;
 
 begin
+a[0]:=0;
 a[1]:=1;
 a[2]:=8;
 a[3]:=27;
